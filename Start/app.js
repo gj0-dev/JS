@@ -21,3 +21,26 @@ let num = 37;
 if (num % 2 !== 0) {
     console.log("ODD NUMBER")
 }
+
+let highScore = 1430;
+let userScore = 1900;
+
+if (userScore >= highScore) {
+    console.log(`Congrats, you have the new high score of ${userScore}`);
+    highScore = userScore;
+}
+else{console.log(`Good game, your score of ${userScore} did not beat the high score of ${highScore}`)}
+    
+let password = 'hellokitty'
+
+
+if (password.length >= 6) {
+    if (password.indexOf(' ') === -1) {
+        console.log("Valid Password")
+    }
+    else{console.log ("Password is long enough, but cannot contain spaces")}
+}
+else {
+    console.log("Password must be longer")
+}
+
