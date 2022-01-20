@@ -18,3 +18,12 @@ console.log(applePresent)
 
 let waterSecondHalf = ingredients.includes('water', 3);
 console.log(waterSecondHalf)
+
+if (ingredients.includes('flour')) {
+    console.log("I'm gluten free I cannot eat that")
+}
+
+console.log(ingredients.indexOf('eel'));
+console.log(ingredients.indexOf('maple syrup'));
+console.log(ingredients.indexOf('cheese', 2));
+console.log(ingredients.indexOf('cheese', 5));
