@@ -1,0 +1,27 @@
+//loop over the keys in an object
+
+const jeopardyWinnings = {
+    regularPlay: 2522700,
+    watsonChallenge: 300000,
+    tournamentOfChampions: 500000,
+    battleOfTheDecades: 100000
+};
+
+for (let prop in jeopardyWinnings) {
+    console.log(prop);
+    console.log(jeopardyWinnings[prop]);
+}
+
+let total = 0;
+for (let prop in jeopardyWinnings) {
+    total += jeopardyWinnings[prop];
+}
+
+console.log(`Ken Jennings Total earnings: ${total}`)
+
+for (let k in [88, 99, 77, 66]) {
+    console.log(k)
+}
+
+console.log(jeopardyWinnings['regularPlay']);
+console.log(jeopardyWinnings);
